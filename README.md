@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/83660e50-cef6-423a-896d-5a226fb6bd15">
+  <img src="https://github.com/user-attachments/assets/8ca43eea-3c28-4f75-bae0-ef3530892bd2">
 </p>
 
 # 🚀 Azure Data Factory ETL Project
@@ -108,7 +108,7 @@ Data could have been written directly into Azure SQL Database, but an intermedia
 - Verified that data was correctly loaded into SQL tables using **SQL queries in VS Code**.  
 - Connected the SQL Database to **Power BI Desktop** to confirm that the schema was recognized and the data was ready for reporting.  
 
-⚡ **Note:** This project focuses on **Azure Data Factory** ETL processes. For dedicated SQL queries and Power BI analytics using the same dataset, please refer to the related projects below.  
+📝 **Note:** This project focuses on **Azure Data Factory** ETL processes. For dedicated SQL queries and Power BI analytics using the same dataset, please refer to the related projects below.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/461f6cf8-3e8c-4eb0-8478-8a9bd2695e16" width="900">
@@ -127,9 +127,9 @@ Since this project was deployed under a Pay-As-You-Go (PAYG) subscription, cost 
   <img src="https://github.com/user-attachments/assets/05dda6bc-1c63-40ca-892e-af4bad25f625" width="900">
 </p>
 
-- 📌 Azure services have different pricing models, so cost awareness is critical for cloud projects. While this was a small-scale demo, the same principles apply to enterprise deployments. For long-term use, additional configuration and subscription options are available to optimize cost and performance.
+- 📝 **Note:** Azure services have different pricing models, so cost awareness is critical for cloud projects. While this was a small-scale demo, the same principles apply to enterprise deployments. For long-term use, additional configuration and subscription options are available to optimize cost and performance.
  
-## ✅ Key Features of This Project
+## 🔑 Key Features of This Project
 
 - Secure private networking using Managed Private Endpoints.
 - Data protection with soft delete and IP restrictions.
