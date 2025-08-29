@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/85fad0a0-5c09-4eb5-ab63-337caae493a3" width="400">
+  <img src="https://github.com/user-attachments/assets/83660e50-cef6-423a-896d-5a226fb6bd15">
 </p>
 
 # 🚀 Azure Data Factory ETL Project
