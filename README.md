@@ -35,6 +35,11 @@ Provisioned ADLS Gen2 with:
     - `processeddata` container → stores transformed Parquet outputs.
 - **Note on Versioning & Snapshots:** ADLS supports versioning and snapshots. These allow point-in-time recovery and auditability of data (useful for compliance or rollback scenarios). These options were not required for this demo project as the dataset was simple and static.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/204e1643-97d1-4916-9fb2-b103c6405745" width="700">
+</p>
+
+
 ## 3️⃣ Data Factory Setup
 
 - Created an Azure Data Factory (ADF) instance.
@@ -119,7 +124,7 @@ Since this project was deployed under a Pay-As-You-Go (PAYG) subscription, cost 
 - Chose LRS (Locally Redundant Storage), hot tier, etc. for balancing performance with cost.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/05dda6bc-1c63-40ca-892e-af4bad25f625" width="800">
+  <img src="https://github.com/user-attachments/assets/05dda6bc-1c63-40ca-892e-af4bad25f625" width="900">
 </p>
 
 - 📌 Azure services have different pricing models, so cost awareness is critical for cloud projects. While this was a small-scale demo, the same principles apply to enterprise deployments. For long-term use, additional configuration and subscription options are available to optimize cost and performance.
