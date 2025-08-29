@@ -1,23 +1,27 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/85fad0a0-5c09-4eb5-ab63-337caae493a3" width="400">
+</p>
+
 # 🚀 Azure Data Factory ETL Project
 
-This project demonstrates a complete ETL pipeline using Azure Cloud Services, including Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS), and Azure SQL Database. The goal was to process and clean raw OLTP data, transforming a highly normalized transactional schema into an analytics-friendly star schema, ready for efficient querying in SQL and reporting in Power BI. The project showcases how raw tabular data can be ingested, transformed into a star schema, stored in optimized formats such as Parquet, and loaded into a relational database for scalable analytics.
+This project demonstrates a complete ETL pipeline and data orchestration using Azure Cloud Services, including Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS), and Azure SQL Database. The goal was to process and clean raw OLTP data, transforming a highly normalized transactional schema into an analytics-friendly star schema, ready for efficient SQL querying and Power BI reporting. The project showcases how raw tabular data can be ingested, transformed into a star schema, stored in optimized formats such as Parquet, and loaded into a relational database for scalable analytics.
 
 🔗 **Dataset:** The data is available on [Kaggle](https://www.kaggle.com/datasets/155a87ba8d7e92c5896ddc7f3ca3e3fa9c799207ed8dbf9a1cedf2e2e03e3c14). 
 
 
 # ⚙️ Step-by-Step Implementation
 
-## 1️⃣ Azure Resources & Resource Group
+## 1️⃣ Azure Resources 
 Cloud computing provides flexibility, scalability, and cost efficiency for data projects. Among the major providers (AWS, GCP, Azure), this project leverages Microsoft Azure. In Azure, the starting point for deploying services is a Resource Group — a logical container that holds all related resources (e.g., storage, compute, networking) so they can be managed, monitored, and billed together. 
 
 For this project, the provisioned resources within our resource group `azure-project` included:  
-- **Azure Data Factory (ADF)**  
-- **Azure Data Lake Storage Gen2 (ADLS)**  
-- **Azure SQL Database**  
-- **Azure SQL Server**
+- Azure Data Factory (ADF) 
+- Azure Data Lake Storage Gen2 (ADLS)  
+- Azure SQL Database  
+- Azure SQL Server
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/50dc25b7-ac4b-45e7-bb01-4cd3bc0e54a5" width="350">
+  <img src="https://github.com/user-attachments/assets/9cb60364-c21b-48f1-b3bb-a9cd1615cac9" width="350">
 </p>
 
 ## 2️⃣ Azure Data Lake Storage Service
@@ -59,7 +63,7 @@ Provisioned ADLS Gen2 with:
   - Established Primary Keys and Foreign Keys for the **Star Schema**.  
 This ensures the database has empty tables with a defined star schema, ready for data to be loaded.
 
-## 5️⃣ Pipeline & Data Flow Design
+## 6️⃣ Pipeline & Data Flow Design
 
 The ADF pipeline included three main components:  
 
@@ -90,7 +94,7 @@ Data could have been written directly into Azure SQL Database, but an intermedia
   <img src="https://github.com/user-attachments/assets/3e2c90cf-9abe-4335-a806-314243555efe" width="700">
 </p>
 
-## 6️⃣ Pipeline Execution & SQL Database Validation
+## 7️⃣ Pipeline Execution & SQL Database Validation
 
 - Executed the pipeline to produce final outcomes:  
   - Used **TriggerNow** for consistent results.  
@@ -99,7 +103,7 @@ Data could have been written directly into Azure SQL Database, but an intermedia
 - Verified that data was correctly loaded into SQL tables using **SQL queries in VS Code**.  
 - Connected the SQL Database to **Power BI Desktop** to confirm that the schema was recognized and the data was ready for reporting.  
 
-⚡ **Note:** This project focuses on **Azure Data Factory ETL/ELT processes**. For dedicated SQL queries and Power BI analytics using the same dataset, please refer to the related projects below.  
+⚡ **Note:** This project focuses on **Azure Data Factory** ETL processes. For dedicated SQL queries and Power BI analytics using the same dataset, please refer to the related projects below.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/461f6cf8-3e8c-4eb0-8478-8a9bd2695e16" width="900">
@@ -112,10 +116,14 @@ Data could have been written directly into Azure SQL Database, but an intermedia
 Since this project was deployed under a Pay-As-You-Go (PAYG) subscription, cost control was important. To keep expenses in check:
 - Set up a budget in Azure Cost Management.
 - Configured email alerts for threshold breaches.
-- Chose LRS (Locally Redundant Storage) and hot tier for balancing performance with cost.
+- Chose LRS (Locally Redundant Storage), hot tier, etc. for balancing performance with cost.
 
-📌 Different Azure services have different pricing models, and cost awareness is a critical part of cloud projects. While this was a small-scale demo, the same principle applies to enterprise-scale deployments. Of course, for long term usage of azure cloud services better subscription options are available.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05dda6bc-1c63-40ca-892e-af4bad25f625" width="800">
+</p>
 
+- 📌 Azure services have different pricing models, so cost awareness is critical for cloud projects. While this was a small-scale demo, the same principles apply to enterprise deployments. For long-term use, additional configuration and subscription options are available to optimize cost and performance.
+ 
 ## ✅ Key Features of This Project
 
 - Secure private networking using Managed Private Endpoints.
@@ -130,7 +138,7 @@ Since this project was deployed under a Pay-As-You-Go (PAYG) subscription, cost 
 
 ## 🔁 Related Projects
 
-The same dataset has been explored in two additional projects, each with a different focus:  
+These projects independently explore the same dataset with different objectives (SQL vs Power BI):  
 
 - 📊 [SQL Project – Grocery Sales](https://github.com/Seyyed-Reza-Mashhadi/SQL-Project_Grocery-Sales): This companion project presents the PostgreSQL database design and extensive analytical SQL queries underpinning the Power BI dashboard insights. It provides deep dives into revenue trends, customer segmentation, product performance, and employee effectiveness.
 - 📊 [Power BI Dashboard – Grocery Sales](https://github.com/Seyyed-Reza-Mashhadi/Power-BI-Project_Grocery-Sales): An interactive dashboard that visually explores key trends from this SQL project — including sales performance, product demand, customer spending metrics, employee highlights, and regional insights.
