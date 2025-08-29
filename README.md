@@ -87,9 +87,8 @@ The ADF pipeline included three main components:
 
 ⚡ **Design Note**  
 Data could have been written directly into Azure SQL Database, but an intermediate Parquet layer was added to:  
-- Keep a **backup** of cleaned data.  
-- Demonstrate use of **optimized columnar storage**.  
-- Ensure **cost-efficient resilience** for moderate data volumes.
+- Keep a backup of cleaned data.  
+- Demonstrate use of optimized columnar storage.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e3db54c5-f27c-4b97-82e4-5fb73c4300db" width="700">
