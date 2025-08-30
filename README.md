@@ -136,7 +136,6 @@ Since this project was deployed under a Pay-As-You-Go (PAYG) subscription, cost 
 - Optimized storage format via Parquet.
 - Schema transformation from raw transactional data to Star Schema for data analytics purposes.
 - Pipeline Parameterization with ForEach + dynamic datasets for scalability.
-- Automated error handling with Delete Activity on pipeline failures.
 - End-to-end validation using SQL queries and Power BI.
 
 
