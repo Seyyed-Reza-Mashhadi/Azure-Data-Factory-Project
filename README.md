@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/8ca43eea-3c28-4f75-bae0-ef3530892bd2">
 </p>
 
-# 🚀 Azure Data Factory Project
+# ☁️ Azure Data Factory Project
 
 This project demonstrates a complete ETL pipeline and data orchestration using Azure Cloud Services, including Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS), and Azure SQL Database. The goal was to process and clean raw OLTP data, transforming a highly normalized transactional schema into an analytics-friendly star schema, ready for efficient SQL querying and Power BI reporting. The project showcases how raw tabular data can be ingested, transformed into a star schema, stored in optimized formats such as Parquet, and loaded into a relational database for scalable analytics.
 
