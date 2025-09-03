@@ -143,6 +143,9 @@ Since this project was deployed under a Pay-As-You-Go (PAYG) subscription, cost 
 
 ## 🔁 Related Projects
 
-These projects independently explore the same dataset with different objectives (SQL vs Power BI):  
-- 📊 [**Power BI Dashboard**](https://github.com/Seyyed-Reza-Mashhadi/Power-BI-Project_Grocery-Sales): An interactive dashboard that visually explores key trends including sales performance, product demand, customer spending metrics, employee highlights, and regional insights.
-- 🗄️ [**SQL Project**](https://github.com/Seyyed-Reza-Mashhadi/SQL-Project_Grocery-Sales): This companion project presents the PostgreSQL database design and extensive analytical SQL queries. It provides deep dives into revenue trends, customer segmentation, product performance, and employee effectiveness.
+These projects independently explore **the same dataset** with different objectives:  
+
+- ☁️ [**Azure Synapse Analytics Project**](https://github.com/Seyyed-Reza-Mashhadi/Azure-Synapse-Analytics-Project): This project is a hands-on exploration of Azure Synapse Analytics, showing how to use Serverless SQL, Dedicated SQL, and Spark to balance cost, performance, and use-case needs.
+- 📊 [**Power BI Dashboard**](https://github.com/Seyyed-Reza-Mashhadi/Power-BI-Project_Grocery-Sales): An interactive Power BI report analyzing sales performance, product demand, customer spending, and regional insights.
+- 🗄️ [**SQL Project**](https://github.com/Seyyed-Reza-Mashhadi/SQL-Project_Grocery-Sales): Features deep-dive analytical SQL queries in PostgreSQL for revenue trends, customer segmentation, and product performance.
+
