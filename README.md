@@ -148,4 +148,5 @@ These projects independently explore **the same dataset** with different objecti
 - ☁️ [**Azure Synapse Analytics Project**](https://github.com/Seyyed-Reza-Mashhadi/Azure-Synapse-Analytics-Project): This project is a hands-on exploration of Azure Synapse Analytics, showing how to use Serverless SQL, Dedicated SQL, and Spark to balance cost, performance, and use-case needs.
 - 📊 [**Power BI Dashboard**](https://github.com/Seyyed-Reza-Mashhadi/Power-BI-Project_Grocery-Sales): An interactive Power BI report analyzing sales performance, product demand, customer spending, and regional insights.
 - 🗄️ [**SQL Project**](https://github.com/Seyyed-Reza-Mashhadi/SQL-Project_Grocery-Sales): Features deep-dive analytical SQL queries in PostgreSQL for revenue trends, customer segmentation, and product performance.
+- 📊 [**Tableau Dashboard**](https://github.com/Seyyed-Reza-Mashhadi/Tableau-Project_Grocery-Sales): Interactive two-page dashboard built on the same dataset to showcase Tableau features, including Tableau Prep Builder workflows, interactivity, navigation, and cross-dashboard linking.
 
